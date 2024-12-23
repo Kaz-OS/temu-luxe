@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+#video {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    & ul {
+        text-decoration: none;
+        display: flex;
+        list-style: none;
+    }
+}
+
+.Card {
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr;
+}
