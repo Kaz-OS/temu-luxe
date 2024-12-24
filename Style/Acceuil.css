@@ -21,3 +21,13 @@
     display: grid;
     grid-template: 1fr/1fr 1fr 1fr;
 }
+
+.Card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card img {
+    height: 250px;
+    width: 250px;
+}
